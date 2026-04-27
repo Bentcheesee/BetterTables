@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"#sophie:bars",
+		"#sophie:chains",
+		{
+			"id": "#sophie:large_chains",
+			"required": false
+		}
+	]
+}

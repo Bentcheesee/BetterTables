@@ -1,0 +1,65 @@
+{
+	"values": [
+		"minecraft:iron_bars",
+		{
+			"id": "minecraft:copper_bars",
+			"required": false
+		},
+		{
+			"id": "minecraft:waxed_copper_bars",
+			"required": false
+		},
+		{
+			"id": "minecraft:exposed_copper_bars",
+			"required": false
+		},
+		{
+			"id": "minecraft:waxed_exposed_copper_bars",
+			"required": false
+		},
+		{
+			"id": "minecraft:weathered_copper_bars",
+			"required": false
+		},
+		{
+			"id": "minecraft:waxed_weathered_copper_bars",	
+			"required": false
+		},
+		{
+			"id": "minecraft:oxidized_copper_bars",
+			"required": false
+		},
+		{
+			"id": "minecraft:waxed_oxidized_copper_bars",
+			"required": false
+		},
+		{
+			"id": "tconstruct:gold_bars",
+			"required": false
+		},
+		{
+			"id": "supplementaries:gold_bars",
+			"required": false
+		},
+		{
+			"id": "quark:gold_bars",
+			"required": false
+		},
+		{
+			"id": "alloyed:steel_bars",
+			"required": false
+		},
+		{
+			"id": "create:andesite_bars",
+			"required": false
+		},
+		{
+			"id": "create:brass_bars",
+			"required": false
+		},
+		{
+			"id": "create:copper_bars",
+			"required": false
+		}
+	]
+}

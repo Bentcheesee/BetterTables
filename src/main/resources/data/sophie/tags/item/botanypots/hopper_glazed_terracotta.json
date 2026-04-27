@@ -1,0 +1,68 @@
+{
+	"values": [
+		{
+			"id": "botanypots:white_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:orange_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:magenta_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:light_blue_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:yellow_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:lime_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:pink_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:gray_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:light_gray_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:cyan_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:purple_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:blue_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:brown_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:green_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:red_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:black_glazed_terracotta_hopper_botany_pot",
+			"required": false
+		}
+	]
+}

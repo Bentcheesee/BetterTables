@@ -1,0 +1,36 @@
+{
+	"input": {
+		"item": "minecraft:music_disc_11"
+	},
+	"result": {
+		"id": "minecraft:skeleton",
+		"nbt": {
+			"DeathLootTable": "sophie:fishing/jukebone",
+			"CustomName": {
+				"text": "Jukebone"
+			},
+			"HandItems": [
+				{},
+				{}
+			],
+			"ArmorItems": [
+				{
+					"id": "minecraft:leather_boots",
+					"Count": "1b"
+				},
+				{
+					"id": "minecraft:iron_leggings",
+					"Count": "1b"
+				},
+				{
+					"id": "minecraft:chainmail_chestplate",
+					"Count": "1b"
+				},
+				{
+					"id": "minecraft:jukebox",
+					"Count": "1b"
+				}
+			]
+		}
+	}
+}

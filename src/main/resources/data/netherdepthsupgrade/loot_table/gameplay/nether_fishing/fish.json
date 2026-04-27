@@ -1,0 +1,93 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "netherdepthsupgrade:searing_cod",
+					"weight": 60
+				},
+				{
+					"type": "minecraft:item",
+					"name": "netherdepthsupgrade:glowdine",
+					"weight": 25,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:nether_wastes"
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "netherdepthsupgrade:wither_bonefish",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "netherdepthsupgrade:lava_pufferfish",
+					"weight": 13
+				},
+				{
+					"type": "minecraft:item",
+					"name": "netherdepthsupgrade:bonefish",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:item",
+					"name": "netherdepthsupgrade:obsidianfish",
+					"weight": 13
+				},
+				{
+					"type": "minecraft:item",
+					"name": "netherdepthsupgrade:magmacubefish",
+					"weight": 7
+				},
+				{
+					"type": "minecraft:item",
+					"name": "netherdepthsupgrade:soulsucker",
+					"weight": 5,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:soul_sand_valley"
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "netherdepthsupgrade:eyeball_fish",
+					"weight": 13
+				},
+				{
+					"type": "minecraft:item",
+					"name": "netherdepthsupgrade:fortress_grouper",
+					"weight": 4,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"structures": "minecraft:fortress"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "netherdepthsupgrade:blazefish",
+					"weight": 15
+				}
+			]
+		}
+	]
+}

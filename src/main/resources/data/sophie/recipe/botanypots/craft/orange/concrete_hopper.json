@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"tag": "sophie:botanypots/hopper_concrete"
+		},
+		{
+			"tag": "c:dyes/orange"
+		}
+	],
+	"result": {
+		"id": "botanypots:orange_concrete_hopper_botany_pot"
+	},
+	"conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "botanypots"
+		}
+	]
+}

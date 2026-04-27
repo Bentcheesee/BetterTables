@@ -1,0 +1,16 @@
+{
+  "values": [
+	{
+		"id": "#c:foods/cooked_bunfungus",
+		"required": false
+	},
+	{
+		"id": "#c:foods/cooked_kangaroo",
+		"required": false
+	},
+	{
+		"id": "#c:foods/cooked_moose",
+		"required": false
+	}
+  ]
+}

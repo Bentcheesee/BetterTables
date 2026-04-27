@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "spelunkery:salt",
+			"required": false
+		},
+		{
+			"id": "salt:salt",
+			"required": false
+		},
+		{
+			"id": "create_so:crushed_diamonds",
+			"required": false
+		}
+	]
+}

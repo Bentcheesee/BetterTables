@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_cod",
+					"weight": 60
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_salmon",
+					"weight": 25
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_chicken",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spider_eye",
+					"weight": 13
+				}
+			]
+		}
+	]
+}

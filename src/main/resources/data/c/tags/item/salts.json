@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "spelunkery:salt",
+			"required": false
+		},
+		{
+			"id": "salt:salt",
+			"required": false
+		}
+	]
+}

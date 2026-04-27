@@ -1,0 +1,14 @@
+{
+	"input": {
+		"item": "minecraft:prismarine_crystals"
+	},
+	"result": {
+		"id": "minecraft:guardian",
+		"nbt": {
+			"DeathLootTable": "sophie:fishing/guardian_of_the_sea",
+			"CustomName": {
+				"text": "Guardian of the Sea"
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:crimson_forest",
+    {
+      "id": "incendium:weeping_valley",
+      "required": false
+    }
+  ]
+}

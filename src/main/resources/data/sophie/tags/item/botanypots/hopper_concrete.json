@@ -1,0 +1,68 @@
+{
+	"values": [
+		{
+			"id": "botanypots:white_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:orange_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:magenta_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:light_blue_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:yellow_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:lime_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:pink_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:gray_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:light_gray_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:cyan_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:purple_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:blue_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:brown_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:green_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:red_concrete_hopper_botany_pot",
+			"required": false
+		},
+		{
+			"id": "botanypots:black_concrete_hopper_botany_pot",
+			"required": false
+		}
+	]
+}

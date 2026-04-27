@@ -1,0 +1,8 @@
+{
+	"input": {
+		"item": "minecraft:gold_nugget"
+	},
+	"result": {
+		"id": "minecraft:zombified_piglin"
+	}
+}

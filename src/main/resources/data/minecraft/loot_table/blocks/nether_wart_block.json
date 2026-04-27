@@ -1,0 +1,104 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_wart_block",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "minecraft:silk_touch",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:explosion_decay"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crimson_fungus",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": -1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_wart",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 2
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:any_of",
+					"terms": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "minecraft:silk_touch",
+												"levels": {
+													"min": 1
+												}
+											}
+										]
+									}
+								}
+							}
+						},
+						{
+							"condition": "minecraft:survives_explosion"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:blocks/nether_wart_block"
+}

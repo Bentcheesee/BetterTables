@@ -1,0 +1,14 @@
+{
+	"input": {
+		"item": "minecraft:lily_pad"
+	},
+	"result": {
+		"id": "minecraft:squid",
+		"nbt": {
+			"DeathLootTable": "sophie:fishing/super_squid",
+			"CustomName": {
+				"text": "Super Squid"
+			}
+		}
+	}
+}

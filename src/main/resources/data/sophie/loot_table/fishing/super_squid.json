@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ink_sac",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						},
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0
+							},
+							"function": "minecraft:looting_enchant"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lily_pad",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0
+							},
+							"function": "minecraft:looting_enchant"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "expandeddelight:cheese_slice",
+			"required": false
+		},
+		{
+			"id": "expandeddelight:goat_cheese_slice",
+			"required": false
+		}
+	]
+}

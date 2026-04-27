@@ -1,0 +1,44 @@
+{
+	"type": "farmersdelight:cutting",
+	"ingredients": [
+		{
+			"item": "tconstruct:skyroot_wood"
+		}
+	],
+	"result": [
+		{
+			"item": {
+				"count": 1,
+				"id": "tconstruct:stripped_skyroot_wood"
+			}
+		},
+		{
+			"item": "tconstruct:sky_slime_ball"
+		},
+		{
+			"item": "tconstruct:sky_slime_ball",
+			"chance": 0.75
+		},
+		{
+			"item": "tconstruct:sky_slime_ball",
+			"chance": 0.25
+		}
+	],
+	"sound": {
+		"sound_id": "farmersdelight:block.tomato_bush.pick_tomatoes"
+	},
+	"tool": {
+		"type": "farmersdelight:item_ability",
+		"action": "axe_strip"
+	},
+	"conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "farmersdelight"
+		},
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "tconstruct"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "alexsmobs:lobster_tail",
+			"required": false
+		},
+		{
+			"id": "bigfish:raw_lobster",
+			"required": false
+		},
+		{
+			"id": "unusualfishmod:raw_lobster",
+			"required": false
+		}
+	]
+}

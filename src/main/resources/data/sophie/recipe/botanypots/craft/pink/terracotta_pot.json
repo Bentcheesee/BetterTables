@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"tag": "sophie:botanypots/hopper_terracotta"
+		},
+		{
+			"tag": "c:dyes/pink"
+		}
+	],
+	"result": {
+		"id": "botanypots:pink_terracotta_botany_pot"
+	},
+	"conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "botanypots"
+		}
+	]
+}

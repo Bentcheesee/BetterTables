@@ -1,0 +1,36 @@
+{
+	"values": [
+		{
+			"id": "dndecor:large_brass_chain",
+			"required": false
+		},
+		{
+			"id": "dndecor:large_andesite_chain",
+			"required": false
+		},
+		{
+			"id": "dndecor:large_zinc_chain",
+			"required": false
+		},
+		{
+			"id": "dndecor:large_copper_chain",
+			"required": false
+		},
+		{
+			"id": "dndecor:large_industrial_chain",
+			"required": false
+		},
+		{
+			"id": "dndecor:large_gold_chain",
+			"required": false
+		},
+		{
+			"id": "dndecor:large_iron_chain",
+			"required": false
+		},
+		{
+			"id": "dndecor:large_netherite_chain",
+			"required": false
+		}
+	]
+}

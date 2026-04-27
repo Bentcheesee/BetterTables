@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "tconstruct:enderbark_log"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  },
+  "result": [
+    {
+      "item": "tconstruct:stripped_enderbark_log"
+    },
+    {
+      "item": "tconstruct:ender_slime_ball"
+    },
+    {
+      "item": "tconstruct:ender_slime_ball",
+      "chance": 0.5
+    }
+  ],
+  "sound": "minecraft:item.axe.strip"
+}

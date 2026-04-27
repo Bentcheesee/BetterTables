@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"N": {
+			"tag": "sophie:alt_crafting/name_tag_nugs"
+		},
+		"P": {
+			"tag": "sophie:alt_crafting/name_tag_papers"
+		}
+	},
+	"pattern": [
+		" N",
+		"P "
+	],
+	"result": {
+		"id": "minecraft:name_tag"
+	}
+}

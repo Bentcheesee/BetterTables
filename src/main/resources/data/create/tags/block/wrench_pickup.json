@@ -1,0 +1,44 @@
+{
+	"replace": false,
+	"values": [
+		"#cauldrons",
+		"#sophie:bars",
+		"#sophie:chains",
+		{
+			"id": "#sophie:large_chains",
+			"required": false
+		},
+		{
+			"id": "#quark:framed_glasses",
+			"required": false
+		},
+		{
+			"id": "#quark:framed_stained_glasses",
+			"required": false
+		},
+		{
+			"id": "#quark:framed_glass_panes",
+			"required": false
+		},
+		{
+			"id": "#quark:framed_stained_glass_panes",
+			"required": false
+		},
+		{
+			"id": "#supplementaries:bamboo_spikes",
+			"required": false
+		},
+		{
+			"id": "supplementaries:crystal_display",
+			"required": false
+		},
+		{
+			"id": "enderstorage:ender_tank",
+			"required": false
+		},
+		{
+			"id": "enderstorage:ender_chest",
+			"required": false
+		}
+	]
+}

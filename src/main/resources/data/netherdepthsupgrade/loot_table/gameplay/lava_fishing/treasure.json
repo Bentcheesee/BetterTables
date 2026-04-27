@@ -1,0 +1,65 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:obsidian",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:redstone",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4,
+								"max": 7
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:echo_shard",
+					"weight": 1,
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:deep_dark"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

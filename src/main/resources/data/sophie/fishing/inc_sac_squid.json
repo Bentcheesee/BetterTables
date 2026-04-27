@@ -1,0 +1,8 @@
+{
+	"input": {
+		"item": "minecraft:inc_sac"
+	},
+	"result": {
+		"id": "minecraft:squid"
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "netherdepthsupgrade:gameplay/nether_fishing/junk",
+					"weight": 10,
+					"quality": -2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "netherdepthsupgrade:gameplay/nether_fishing/treasure",
+					"weight": 7,
+					"quality": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "netherdepthsupgrade:gameplay/nether_fishing/fish",
+					"weight": 83,
+					"quality": -1
+				}
+			]
+		}
+	]
+}

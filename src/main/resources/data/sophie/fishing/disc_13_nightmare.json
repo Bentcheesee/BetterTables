@@ -1,0 +1,13 @@
+{
+	"input": {
+		"item": "minecraft:music_disc_13"
+	},
+	"result": {
+		"id": "minecraft:zombie_horse",
+		"nbt": {
+			"CustomName": {
+				"text": "Nightmare"
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "minecraft:fishing_rod",
+			"required": false
+		},
+		{
+			"id": "alloyed:steel_fishing_rod",
+			"required": false
+		},
+		{
+			"id": "netherdepthsupgrade:lava_fishing_rod",
+			"required": false
+		},
+		{
+			"id": "iron_fishing_rods:iron_fishing_rod",
+			"required": false
+		},
+		{
+			"id": "iron_fishing_rods:gold_fishing_rod",
+			"required": false
+		},
+		{
+			"id": "iron_fishing_rods:diamond_fishing_rod",
+			"required": false
+		},
+		{
+			"id": "iron_fishing_rods:netherite_fishing_rod",
+			"required": false
+		}
+	]
+}

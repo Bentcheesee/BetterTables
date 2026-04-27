@@ -1,0 +1,22 @@
+{
+	"type": "tconstruct:melting",
+	"temperature": 934,
+	"time": 193,
+	"ingredient": {
+		"item": "spelunkery:rough_emerald_block"
+	},
+	"result": {
+		"amount": 1125,
+		"fluid": "tconstruct:molten_emerald"
+	},
+	"conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "spelunkery"
+		},
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "tconstruct"
+		}
+	]
+}

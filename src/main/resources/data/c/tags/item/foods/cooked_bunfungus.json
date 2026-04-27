@@ -1,0 +1,12 @@
+{
+  "values": [
+	{
+		"id": "alexsdelight:cooked_bunfungus",
+		"required": false
+	},
+	{
+		"id": "alexsdelight:cooked_bunfungus_drumstick",
+		"required": false
+	}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"values": [
+		"minecraft:soul_sand",
+		"minecraft:soul_soil",
+		{
+			"id": "sophies_alloys:soul_cobblestone",
+			"required": false
+		}
+	]
+}

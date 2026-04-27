@@ -150,9 +150,9 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             neo_version            : neo_version,
             loader_version_range   : loader_version_range,
             mod_id                 : mod_id,
-            mod_name               : mod_name,
+            mod_name               : 'Sophies better Tables',
             mod_license            : mod_license,
-            mod_version            : mod_version,
+            mod_version            : '2.0.0',
     ]
     inputs.properties replaceProperties
     expand replaceProperties

@@ -1,0 +1,23 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:compass",
+		"minecraft:recovery_compass",
+		{
+			"id": "naturescompass:naturescompass",
+			"required": false
+		},
+		{
+			"id": "travelerscompass:travelerscompass",
+			"required": false
+		},
+		{
+			"id": "the_bumblezone:honey_compass",
+			"required": false
+		},
+		{
+			"id": "ae2:meteorite_compass",
+			"required": false
+		}
+	]
+}

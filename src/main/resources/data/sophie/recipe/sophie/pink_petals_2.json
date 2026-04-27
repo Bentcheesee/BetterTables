@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "pink_petals",
+	"category": "misc",
+	"ingredients": [
+		[
+			{
+				"item": "minecraft:cherry_leaves"
+			},
+			{
+				"item": "minecraft:cherry_sapling"
+			},
+			{
+				"item": "minecraft:pink_tulip"
+			}
+		],
+		[
+			{
+				"item": "minecraft:cherry_leaves"
+			},
+			{
+				"item": "minecraft:cherry_sapling"
+			},
+			{
+				"item": "minecraft:pink_tulip"
+			}
+		]
+	],
+	"result": {
+		"id": "minecraft:pink_petals",
+		"count": 2
+	}
+}

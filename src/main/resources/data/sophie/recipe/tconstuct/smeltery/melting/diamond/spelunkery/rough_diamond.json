@@ -1,0 +1,22 @@
+{
+	"type": "tconstruct:melting",
+	"temperature": 1450,
+	"time": 79,
+	"ingredient": {
+		"item": "spelunkery:rough_diamond"
+	},
+	"result": {
+		"amount": 125,
+		"fluid": "tconstruct:molten_diamond"
+	},
+	"conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "spelunkery"
+		},
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "tconstruct"
+		}
+	]
+}

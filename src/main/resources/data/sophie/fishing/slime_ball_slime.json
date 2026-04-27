@@ -1,0 +1,8 @@
+{
+	"input": {
+		"item": "minecraft:slime_ball"
+	},
+	"result": {
+		"id": "minecraft:slime"
+	}
+}

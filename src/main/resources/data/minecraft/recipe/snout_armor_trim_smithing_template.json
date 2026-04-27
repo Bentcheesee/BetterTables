@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "tag": "c:cobblestones"
+    },
+    "S": {
+      "item": "minecraft:snout_armor_trim_smithing_template"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:snout_armor_trim_smithing_template",
+    "count": 2
+  }
+}

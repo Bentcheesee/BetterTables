@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "pink_petals",
+	"category": "misc",
+	"ingredients": [
+		[
+			{
+				"item": "minecraft:lilac"
+			},
+			{
+				"item": "minecraft:peony"
+			}
+		],
+		[
+			{
+				"item": "minecraft:lilac"
+			},
+			{
+				"item": "minecraft:peony"
+			}
+		]
+	],
+	"result": {
+		"id": "minecraft:pink_petals",
+		"count": 4
+	}
+}

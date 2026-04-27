@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "alexsmobs:cooked_lobster_tail",
+			"required": false
+		},
+		{
+			"id": "bigfish:cooked_lobster",
+			"required": false
+		},
+		{
+			"id": "unusualfishmod:cooked_lobster",
+			"required": false
+		}
+	]
+}

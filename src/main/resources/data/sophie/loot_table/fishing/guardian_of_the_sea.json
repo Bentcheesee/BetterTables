@@ -1,0 +1,101 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prismarine_shard",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 0
+							}
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prismarine_crystals",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 0
+							}
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cod",
+					"functions": [
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0
+							}
+						},
+						{
+							"function": "minecraft:furnace_smelt",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"flags": {
+											"is_on_fire": true
+										}
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prismarine_crystals",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0
+							},
+							"function": "minecraft:looting_enchant"
+						}
+					]
+				}
+			]
+		}
+	]
+}

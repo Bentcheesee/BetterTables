@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "spelunkery:emerald_shard",
+			"required": false
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"type": "create:milling",
+	"conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "create"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "minecraft:crossbow"
+		}
+	],
+	"processing_time": 200,
+	"results": [
+		{
+			"chance": 0.85,
+			"count": 2,
+			"id": "minecraft:stick"
+		},
+		{
+			"chance": 0.45,
+			"id": "minecraft:stick"
+		},
+		{
+			"chance": 0.75,
+			"id": "minecraft:string"
+		},
+		{
+			"count": 5,
+			"id": "minecraft:iron_nugget"
+		}
+	]
+}
