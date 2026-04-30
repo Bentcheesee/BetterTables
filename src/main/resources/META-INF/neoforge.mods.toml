@@ -7,7 +7,7 @@ issueTrackerURL="https://github.com/Bentcheesee/BetterTables/issues"
 [[mods]]
 
 modId="sophiesbettertables"
-version="2.0.0"
+version="2.0.1"
 displayName="Sophie's Better Tables"
 
 logoFile= "../logo.png"
