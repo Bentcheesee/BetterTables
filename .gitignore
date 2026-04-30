@@ -28,6 +28,7 @@ bin/
 
 ### VS Code ###
 .vscode/
+*.code-workspace
 
 ### Mac OS ###
 .DS_Store
@@ -38,3 +39,8 @@ run/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
+
+### Sophie Contrast ###
+changelog_format*
+rescheck*
+*sophreader

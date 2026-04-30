@@ -29,7 +29,6 @@ Revamps many many loot tables and recipes within modded Minecraft!
     ordering="NONE"
     side="BOTH"
 
-# Here's another dependency
 [[dependencies.sophiesbettertables]]
     modId="minecraft"
     type="required"
