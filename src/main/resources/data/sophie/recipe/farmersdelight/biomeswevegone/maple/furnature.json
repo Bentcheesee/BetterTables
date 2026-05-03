@@ -1,0 +1,62 @@
+{
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "farmersdelight"
+		},
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "biomeswevegone"
+		}
+	],
+	"type": "farmersdelight:cutting",
+	"ingredients": [
+		{
+			"type": "compound",
+			"children": [
+				{
+					"item": "biomeswevegone:maple_door"
+				},
+				{
+					"item": "biomeswevegone:maple_trapdoor"
+				},
+				{
+					"item": "biomeswevegone:maple_sign"
+				},
+				{
+					"item": "biomeswevegone:maple_fence"
+				},
+				{
+					"item": "biomeswevegone:maple_fence_gate"
+				},
+				{
+					"item": "biomeswevegone:maple_pressure_plate"
+				},
+				{
+					"item": "biomeswevegone:maple_button"
+				},
+				{
+					"item": "biomeswevegone:maple_boat"
+				}
+			]
+		}
+	],
+	"tool": [
+		{
+			"type": "farmersdelight:item_ability",
+			"action": "axe_dig"
+		},
+		{
+			"tag": "minecraft:axes"
+		}
+	],
+	"result": [
+		{
+			"item": {
+				"count": 1,
+				"chance": 0.75,
+				"id": "biomeswevegone:maple_planks"
+			}
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "farmersdelight"
+		},
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "biomesoplenty"
+		}
+	],
+	"type": "farmersdelight:cutting",
+	"ingredients": [
+		{
+			"type": "compound",
+			"children": [
+				{
+					"item": "biomesoplenty:redwood_door"
+				},
+				{
+					"item": "biomesoplenty:redwood_trapdoor"
+				},
+				{
+					"item": "biomesoplenty:redwood_sign"
+				},
+				{
+					"item": "biomesoplenty:redwood_fence"
+				},
+				{
+					"item": "biomesoplenty:redwood_fence_gate"
+				},
+				{
+					"item": "biomesoplenty:redwood_pressure_plate"
+				},
+				{
+					"item": "biomesoplenty:redwood_button"
+				},
+				{
+					"item": "biomesoplenty:redwood_boat"
+				}
+			]
+		}
+	],
+	"tool": [
+		{
+			"type": "farmersdelight:item_ability",
+			"action": "axe_dig"
+		},
+		{
+			"tag": "minecraft:axes"
+		}
+	],
+	"result": [
+		{
+			"item": {
+				"count": 1,
+				"chance": 0.75,
+				"id": "biomesoplenty:redwood_planks"
+			}
+		}
+	]
+}

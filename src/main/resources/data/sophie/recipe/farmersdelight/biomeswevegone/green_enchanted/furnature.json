@@ -1,0 +1,62 @@
+{
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "farmersdelight"
+		},
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "biomeswevegone"
+		}
+	],
+	"type": "farmersdelight:cutting",
+	"ingredients": [
+		{
+			"type": "compound",
+			"children": [
+				{
+					"item": "biomeswevegone:green_enchanted_door"
+				},
+				{
+					"item": "biomeswevegone:green_enchanted_trapdoor"
+				},
+				{
+					"item": "biomeswevegone:green_enchanted_sign"
+				},
+				{
+					"item": "biomeswevegone:green_enchanted_fence"
+				},
+				{
+					"item": "biomeswevegone:green_enchanted_fence_gate"
+				},
+				{
+					"item": "biomeswevegone:green_enchanted_pressure_plate"
+				},
+				{
+					"item": "biomeswevegone:green_enchanted_button"
+				},
+				{
+					"item": "biomeswevegone:green_enchanted_boat"
+				}
+			]
+		}
+	],
+	"tool": [
+		{
+			"type": "farmersdelight:item_ability",
+			"action": "axe_dig"
+		},
+		{
+			"tag": "minecraft:axes"
+		}
+	],
+	"result": [
+		{
+			"item": {
+				"count": 1,
+				"chance": 0.75,
+				"id": "biomeswevegone:green_enchanted_planks"
+			}
+		}
+	]
+}
