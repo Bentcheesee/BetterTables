@@ -3,7 +3,7 @@
 	"category": "misc",
 	"ingredients": [
 		{
-			"tag": "sophie:botanypots/hopper_terracotta"
+			"tag": "sophie:botanypots/terracotta"
 		},
 		{
 			"tag": "c:dyes/lime"
@@ -12,7 +12,7 @@
 	"result": {
 		"id": "botanypots:lime_terracotta_botany_pot"
 	},
-	"conditions": [
+	"neoforge:conditions": [
 		{
 			"type": "neoforge:mod_loaded",
 			"modid": "botanypots"

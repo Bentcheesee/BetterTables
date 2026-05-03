@@ -10,7 +10,7 @@
 	"result": {
 		"id": "botanypots:white_glazed_terracotta_botany_pot"
 	},
-	"conditions": [
+	"neoforge:conditions": [
 		{
 			"type": "neoforge:mod_loaded",
 			"modid": "botanypots"
