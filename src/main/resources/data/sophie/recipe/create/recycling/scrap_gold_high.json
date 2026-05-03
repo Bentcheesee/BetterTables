@@ -1,11 +1,11 @@
 {
-	"type": "create:crushing",
-	"conditions": [
+	"neoforge:conditions": [
 		{
 			"type": "neoforge:mod_loaded",
 			"modid": "create"
 		}
 	],
+	"type": "create:crushing",
 	"ingredients": [
 		{
 			"tag": "sophie:scrap/gold_high"

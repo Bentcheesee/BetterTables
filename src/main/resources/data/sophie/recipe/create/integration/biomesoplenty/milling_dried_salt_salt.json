@@ -1,7 +1,5 @@
 {
-	"type": "create:milling",
-	"processingTime": 200,
-	"conditions": [
+	"neoforge:conditions": [
 		{
 			"type": "neoforge:mod_loaded",
 			"modid": "biomesoplenty"
@@ -15,6 +13,8 @@
 			"modid": "salt"
 		}
 	],
+	"type": "create:milling",
+	"processingTime": 200,
 	"ingredients": [
 		{
 			"item": "biomesoplenty:dried_salt"

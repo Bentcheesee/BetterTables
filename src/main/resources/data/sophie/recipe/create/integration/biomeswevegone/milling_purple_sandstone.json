@@ -1,7 +1,5 @@
 {
-	"type": "create:milling",
-	"processingTime": 200,
-	"conditions": [
+	"neoforge:conditions": [
 		{
 			"type": "neoforge:mod_loaded",
 			"modid": "biomeswevegone"
@@ -11,6 +9,8 @@
 			"modid": "create"
 		}
 	],
+	"type": "create:milling",
+	"processingTime": 200,
 	"ingredients": [
 		{
 			"item": "biomeswevegone:purple_sandstone"

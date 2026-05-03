@@ -1,29 +1,29 @@
 {
-	"type": "farmersdelight:cooking",
-	"conditions": [
+	"neoforge:conditions": [
 		{
 			"type": "neoforge:mod_loaded",
 			"modid": "alexsdelight"
 		}
 	],
-	"experience": 0.35,
+	"type": "farmersdelight:cooking",
+	"experience": 1.0,
 	"cookingtime": 200,
 	"ingredients": [
 		{
-		"tag": "c:foods/raw_lobster"
+			"tag": "c:foods/raw_lobster"
 		},
 		{
-		"tag": "c:foods/pasta"
+			"tag": "c:foods/pasta"
 		},
 		{
-		"item": "farmersdelight:tomato_sauce"
+			"item": "farmersdelight:tomato_sauce"
 		}
 	],
 	"recipe_book_tab": "meals",
 	"result": {
-		"item": "alexsdelight:lobster_pasta"
+		"id": "alexsdelight:lobster_pasta"
 	},
 	"container": {
-		"item": "minecraft:bowl"
+		"id": "minecraft:bowl"
 	}
 }

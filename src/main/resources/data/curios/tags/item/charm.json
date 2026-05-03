@@ -18,6 +18,10 @@
 		{
 			"id": "ae2:meteorite_compass",
 			"required": false
+		},
+		{
+			"id": "deeperdarker:ancient_compass",
+			"required": false
 		}
 	]
 }

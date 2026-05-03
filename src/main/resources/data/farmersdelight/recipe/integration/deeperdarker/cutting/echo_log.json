@@ -1,27 +1,37 @@
 {
-  "conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "deeperdarker"
-    }
-  ],
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-    {
-      "item": "deeperdarker:echo_log"
-    }
-  ],
-  "tool": {
-    "type": "farmersdelight:tool_action",
-    "action": "axe_strip"
-  },
-  "result": [
-    {
-      "item": "deeperdarker:stripped_echo_log"
-    },
-    {
-      "item": "farmersdelight:tree_bark"
-    }
-  ],
-  "sound": "minecraft:item.axe.strip"
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "deeperdarker"
+		}
+	],
+	"type": "farmersdelight:cutting",
+	"ingredients": [
+		{
+			"item": "deeperdarker:dead_log"
+		}
+	],
+	"tool": [
+		{
+			"type": "farmersdelight:item_ability",
+			"action": "axe_strip"
+		}
+	],
+	"result": [
+		{
+			"item": {
+				"count": 1,
+				"id": "deeperdarker:stripped_dead_log"
+			}
+		},
+		{
+			"item": {
+				"count": 1,
+				"id": "farmersdelight:tree_bark"
+			}
+		}
+	],
+	"sound": {
+		"sound_id": "minecraft:item.axe.strip"
+	}
 }

@@ -7,7 +7,7 @@ issueTrackerURL="https://github.com/Bentcheesee/BetterTables/issues"
 [[mods]]
 
 modId="sophiesbettertables"
-version="2.0.1"
+version="2.1.0"
 displayName="Sophie's Better Tables"
 
 logoFile= "../logo.png"
@@ -22,7 +22,7 @@ description='''
 Revamps many many loot tables and recipes within modded Minecraft!
 '''
 
-[[dependencies.sophiesbettertables]] #optional
+[[dependencies.sophiesbettertables]]
     modId="neoforge"
     type="required"
     versionRange="[${neo_version},)"

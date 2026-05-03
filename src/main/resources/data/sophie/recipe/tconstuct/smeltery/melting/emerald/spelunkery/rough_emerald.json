@@ -1,4 +1,14 @@
 {
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "spelunkery"
+		},
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "tconstruct"
+		}
+	],
 	"type": "tconstruct:melting",
 	"temperature": 934,
 	"time": 64,
@@ -8,15 +18,5 @@
 	"result": {
 		"amount": 125,
 		"fluid": "tconstruct:molten_emerald"
-	},
-	"conditions": [
-		{
-			"type": "neoforge:mod_loaded",
-			"modid": "spelunkery"
-		},
-		{
-			"type": "neoforge:mod_loaded",
-			"modid": "tconstruct"
-		}
-	]
+	}
 }

@@ -1,11 +1,18 @@
 {
-	"type": "create:crushing",
-	"conditions": [
+	"neoforge:conditions": [
 		{
 			"type": "neoforge:mod_loaded",
 			"modid": "create"
+		},
+		{
+			"type": "neoforge:not",
+			"value": {
+				"type": "neoforge:mod_loaded",
+				"modid": "sophies_alloys"
+			}
 		}
 	],
+	"type": "create:crushing",
 	"processing_time": 150,
 	"ingredients": [
 		{
